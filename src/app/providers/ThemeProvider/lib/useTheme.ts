@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { LOCAL_STORAGE_THEME_KEY, Theme, ThemeContext } from './themeContext'
+import { LOCAL_STORAGE_THEME_KEY, Theme, ThemeContext } from './ThemeContext'
 
 
 interface UseThemeResult {
@@ -20,5 +20,4 @@ export function useTheme(): UseThemeResult {
         theme,
         toggleTheme
     }
-    
 }
