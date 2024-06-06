@@ -1,0 +1,27 @@
+.Sidebar {
+    height: calc(100vh - var(--navbar-height));
+    width: var(--sidebar-width);
+    position: relative;
+    background: var(--inverted-bg-color);
+    transition: width .3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.button-clpsd {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.switchers {
+    position: absolute;
+    bottom: 20px;
+}
+
+.collapsed {
+    width: var(--sidebar-width-collapsed);
+}
